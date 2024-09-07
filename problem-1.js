@@ -103,7 +103,22 @@ console.log( 'Avarage is:', average)
 
 //Output: Avarage is: 5
 
-//-------------------------- ----------------------------------------
+
+//--------------------------Remove Duplicate Item From Array --------
+
+function noDuplicate(array){
+    const unique = []
+    for(const item of array){
+        if(unique.includes(item) === false){
+            unique.push(item);
+        }
+    }
+    return unique;
+}
+const nameArray = ['Rehan', 'Hassan', 'Rehan', 'jahid', 'jihad', 'Jahid']
+const duplicate = noDuplicate(nameArray)
+console.log(duplicate)
+
 //-------------------------- ----------------------------------------
 //-------------------------- ----------------------------------------
 //-------------------------- ----------------------------------------
