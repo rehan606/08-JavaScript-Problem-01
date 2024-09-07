@@ -120,7 +120,46 @@ const nameArray = ['Rehan', 'Hassan', 'Rehan', 'jahid', 'jihad', 'Jahid']
 const duplicate = noDuplicate(nameArray)
 console.log(duplicate)
 
-//-------------------------- ----------------------------------------
+//Output: [ 'rehan', 'hassan', 'jahid', 'jihad' ]
+
+//--------------------------Math,Abs,Round,Ceil,Floor And Random ----
+
+//Find Minimum Value 
+const min = Math.min(20,13,24,712,42,12)
+console.log(min)
+
+    //Output: 12
+
+//Find Maximum value
+const max = Math.max(20,13,24,712,42,12)
+console.log(max)
+    //Output: 712
+
+//Find value of PI
+console.log(Math.PI)
+    //Output: 3.141592653589793
+
+//Defference Between two Number
+console.log(Math.abs(20-5))
+    //Output: 15
+
+//Round Figure
+console.log('Round Figure is:',Math.round(2.49))
+    //Output: Round Figure is: 2
+console.log('Round Figure is:', Math.round(2.50))
+    //Output: Round Figure is: 3
+
+//Floor
+console.log( 'FLoor figure is:', Math.floor(2.99))
+    //Output: FLoor figure is: 2
+
+//Ceil
+console.log('Ceil Figure is:', Math.ceil(2.002))
+    //Output: Ceil Figure is: 3
+
+//Random
+const rand = Math.round(Math.random( 4 * 10))
+console.log(rand)
 //-------------------------- ----------------------------------------
 //-------------------------- ----------------------------------------
 //-------------------------- ----------------------------------------
