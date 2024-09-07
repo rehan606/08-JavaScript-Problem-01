@@ -160,7 +160,30 @@ console.log('Ceil Figure is:', Math.ceil(2.002))
 //Random
 const rand = Math.round(Math.random( 4 * 10))
 console.log(rand)
-//-------------------------- ----------------------------------------
-//-------------------------- ----------------------------------------
-//-------------------------- ----------------------------------------
+
+    //Output : Random Number
+
+//--------------------------Swap Variable ,Temp and Destructure -----
+
+    //Using Temp
+    let a = 5;
+    let b = 8;
+    console.log('Normal Output:', a,b)
+
+    let temp = a;
+    a = b;
+    b = temp
+    console.log('Temp Output:', a, b)
+
+    //Output : Normal Output: 5 8
+            // Temp Output: 8 5
+
+
+    //Destructure
+
+    let x = 6;
+    let y = 9;
+    [x,y] = [y,x];
+
+
 //-------------------------- ----------------------------------------
