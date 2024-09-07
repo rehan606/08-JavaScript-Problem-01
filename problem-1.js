@@ -24,8 +24,57 @@ const inchIs = inchToFeet2(75)
 console.log(inchIs)
 
 //Output: 6 Feet 3 inch
-//-------------------------- ----------------------------------------
-//-------------------------- ----------------------------------------
-//-------------------------- ----------------------------------------
+
+//--------------------------Miles To Kilometer Convert --------------
+
+function milesTokilo(miles){
+    const kilometer = miles * 1.60934 ;
+    return kilometer
+}
+const mileis = milesTokilo(20)
+console.log('kilometer =',  mileis)
+
+//Output: kilometer = 32.1868
+
+//--------------------------Leap Year -------------------------------
+
+//Hints: Year will be a Leap year if the year is divisible y 4.
+
+function leapYear(year){
+    if (year % 4 ===0){
+        return true
+    }
+    else{
+        return false
+    }
+}
+const year = leapYear(2032)
+console.log('This Year is Leap Year:', year);
+
+//Output: This Year is Leap Year: true
+
+
+//--------------------------Leap Year Advance Method ----------------
+/**
+ * Hints:
+ * 01 - Those Year that is not divisible by 100 and 
+ *      if The year is divisible by 4: then it will be a leap Year.
+ * 02 - If the year is divisible by 400, Then is is a leap year.
+ * 03 - else it is not a leap year.
+ */
+
+function isLeapYear(year){
+    if(year % 100 !==0 && year % 4 ===0 ){
+        return true
+    } else if(year % 400 ===0){
+        return true
+    } else {
+        return false
+    }
+}
+const years = isLeapYear(2069)
+console.log( 'this year is leap year?' , years)
+
+//Output: this year is leap year? false 
 //-------------------------- ----------------------------------------
 //-------------------------- ----------------------------------------
