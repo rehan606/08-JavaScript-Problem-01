@@ -19,7 +19,6 @@
 <ol>
     <li>Leap Year</li>
     <li>Leap Year Advance Method</li>
-
     <li>Average odd number From Array</li>
     <li>Remove Duplicate Item From Array</li>
 </ol>
@@ -30,7 +29,6 @@
     <li>Find Minimum Value</li>
     <li>Find Maximum value</li>
     <li>Find value of PI</li>
-
     <li>Defference Between two Number</li>
     <li>Round Figure</li>
     <li>Floor</li>
