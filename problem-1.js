@@ -109,13 +109,14 @@ console.log( 'Avarage is:', average)
 function noDuplicate(array){
     const unique = []
     for(const item of array){
-        if(unique.includes(item) === false){
-            unique.push(item);
+        if(unique.includes(item.toLowerCase()) === false){
+            unique.push(item.toLowerCase());
         }
     }
     return unique;
 }
 const nameArray = ['Rehan', 'Hassan', 'Rehan', 'jahid', 'jihad', 'Jahid']
+
 const duplicate = noDuplicate(nameArray)
 console.log(duplicate)
 
