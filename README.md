@@ -14,6 +14,36 @@
     <li>Miles To Kilometer Convert</li>  
 </ol>
 
+<h5>Leap Year</h5>
+
+<ol>
+    <li>Leap Year</li>
+    <li>Leap Year Advance Method</li>
+
+    <li>Average odd number From Array</li>
+    <li>Remove Duplicate Item From Array</li>
+</ol>
+
+<h5>Math,Abs,Round,Ceil,Floor And Random</h5>
+
+<ol>
+    <li>Find Minimum Value</li>
+    <li>Find Maximum value</li>
+    <li>Find value of PI</li>
+
+    <li>Defference Between two Number</li>
+    <li>Round Figure</li>
+    <li>Floor</li>
+    <li>Ceil</li>
+    <li>Random</li>
+</ol>
+
+<h5>Swap Variable</h5>
+<ol>
+    <li>Using Temp</li>
+    <li>Destructure</li>
+</ol>
+
 <h2>Technology Use:</h2>
 
 <ul>
