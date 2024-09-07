@@ -7,14 +7,14 @@
 
 <h2>Table Of Content:</h2>
 
-<h5>Unit Convert :</h5>
+<h4>Unit Convert :</h4>
 <ol>
     <li>Inch To Feet Convert</li>
     <li>Method-2: inch to feet convert</li>
     <li>Miles To Kilometer Convert</li>  
 </ol>
 
-<h5>Leap Year :</h5>
+<h4>Leap Year :</h4>
 
 <ol>
     <li>Leap Year</li>
@@ -23,7 +23,7 @@
     <li>Remove Duplicate Item From Array</li>
 </ol>
 
-<h5>Math,Abs,Round,Ceil,Floor And Random :</h5>
+<h4>Math,Abs,Round,Ceil,Floor And Random :</h4>
 
 <ol>
     <li>Find Minimum Value</li>
@@ -36,7 +36,7 @@
     <li>Random</li>
 </ol>
 
-<h5>Swap Variable :</h5>
+<h4>Swap Variable :</h4>
 <ol>
     <li>Using Temp</li>
     <li>Destructure</li>
