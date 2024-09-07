@@ -7,14 +7,11 @@
 
 <h2>Table Of Content:</h2>
 
+<h5>Unit Convert</h5>
 <ol>
-    <h5>Unit Convert</h5>
-
     <li>Inch To Feet Convert</li>
     <li>Method-2: inch to feet convert</li>
-    <li>Miles To Kilometer Convert</li>
-
-    
+    <li>Miles To Kilometer Convert</li>  
 </ol>
 
 <h2>Technology Use:</h2>
