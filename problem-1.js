@@ -76,5 +76,36 @@ const years = isLeapYear(2069)
 console.log( 'this year is leap year?' , years)
 
 //Output: this year is leap year? false 
+
+//--------------------------Average odd number From Array -----------
+
+function oddAverage(numbers){
+    const odds = [];
+
+    for (const number of numbers){
+        if(number % 2 ===1){
+            odds.push(number);
+        }
+    }
+
+    let sum = 0;
+    for (const number of odds){
+        sum = sum + number
+    }
+    const count = odds.length ;
+    console.log(`Sum is: ${sum} and Length is: ${count}`);
+    const avg = sum / count
+    return avg;
+}
+const numArray = [1,2,3,4,5,6,7,8,9]
+const average = oddAverage(numArray)
+console.log( 'Avarage is:', average)
+
+//Output: Avarage is: 5
+
+//-------------------------- ----------------------------------------
+//-------------------------- ----------------------------------------
+//-------------------------- ----------------------------------------
+//-------------------------- ----------------------------------------
 //-------------------------- ----------------------------------------
 //-------------------------- ----------------------------------------
