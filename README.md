@@ -1,5 +1,5 @@
 
-<h1 align="center">JavaScript Simple Problem-(part-1)</h1>
+<h1 align="center">JavaScript Simple Problem (part-1)</h1>
 
 <p align="center">JavaScript Simple Problem Solve:- Unit Convert, Leap Year, Remove duplicate items from Array, Math-Abs-Round-Ceil-Floor-And Random-Number, Swap-Temp, Destructing.</p>
 
